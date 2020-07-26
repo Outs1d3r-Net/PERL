@@ -20,7 +20,7 @@ EOTA foi projetado para ser utilizado com um arquivo CRON, seu banner exibe as c
 ## EXECUTANDO
 Para executar EOTA voce precisará de acesso root ao sistema, depois execute os seguintes comandos:
 
->$ git clone https://github.com/Outs1d3r-Net/PERL.git
+>$ git clone https://github.com/Outs1d3r-Net/PERL.git<br/>
 >$ cd PERL
 >$ chmod a+x EOTA.pl
 >$ perl ./EOTA.pl 110 & 2>&1
