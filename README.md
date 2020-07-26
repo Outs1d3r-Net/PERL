@@ -1,7 +1,9 @@
 # EOTA
-Este script é uma backdoor projetada para funcionar como um serviço, qual quer serviço que voce desejar.
+Este script é uma backdoor ''' Perl ''' projetada para equipes vermelhas e que funciona como um serviço/porta qualquer que voce desejar.
 A backdoor informar qualquer programa de mapeamento de rede que ele é um serviço determinado pelo orquestrador da ferramenta.
-Por favor modifique o codigo fonte da ferramenta.
+Por favor modifique o codigo fonte da ferramenta para personalização.
+
+#### obs: Necessario modificação para implementar criptografia no trafego.
 
 ## VARIAVEIS 
 * $service = Utilizada como banner para ser exibido aos scanners.
