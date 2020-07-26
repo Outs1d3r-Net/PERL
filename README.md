@@ -23,7 +23,7 @@ Para executar EOTA voce precisará de acesso root ao sistema, depois execute os 
 >$ git clone https://github.com/Outs1d3r-Net/PERL.git<br/>
 >$ cd PERL<br/>
 >$ chmod a+x EOTA.pl<br/>
->'#' perl ./EOTA.pl 110 & 2>&1
+>.# perl ./EOTA.pl 110 & 2>&1
 
 ## CONECTANDO
 >$ nc IP_alvo 110<br/>
