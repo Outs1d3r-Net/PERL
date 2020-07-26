@@ -8,8 +8,8 @@ Por favor modifique o codigo fonte da ferramenta para personalização.
 ## VARIAVEIS 
 * $service = Utilizada como banner para ser exibido aos scanners.
 
-* $sec = Esta é uma senha para utilizar a backdoor, não queros xeretas xeretando, utilize o perl para gerar a senha:
-perl -e 'print crypt ("PASSWORD","salto")'
+* $sec = Esta é uma senha para utilizar a backdoor, não queros xeretas xeretando, utilize o perl para gerar a senha:<br/>
+perl -e 'print crypt ("PASSWORD","salto")'<br/>
 Modifique o PASSWORD para a senha e o SALTO para o salto utilizado na senha.
 
 * $acs = Modifique esta variavel para controle de shell , por default utilizamos o /bin/bash.
@@ -31,6 +31,6 @@ Para executar EOTA voce precisará de acesso root ao sistema, depois execute os 
 >id
 
 ## TTY
-Se voce precisar de um TTY voce verificar com o python por exemplo para obter uma linha de comando mais interativa:
->which python
->/usr/bin/python2 -c 'import pty;pty.spawn("/bin/bash")'
+Se voce precisar de um TTY voce verificar com o python por exemplo para obter uma linha de comando mais interativa:<br/>
+>which python<br/>
+>/usr/bin/python2 -c 'import pty;pty.spawn("/bin/bash")'<br/>
